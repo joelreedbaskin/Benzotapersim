@@ -12,8 +12,8 @@
  * 5. Paste that URL into the HTML file where indicated
  */
 
-const ALLOWED_ORIGIN = "*"; // Restrict to your Pages URL in production, e.g.:
-// const ALLOWED_ORIGIN = "https://benzotapersim.pages.dev";
+// const ALLOWED_ORIGIN = "*"; // Restrict to your Pages URL in production, e.g.:
+const ALLOWED_ORIGIN = "https://benzotapersim1.pages.dev";
 
 export default {
   async fetch(request, env) {
